@@ -127,8 +127,8 @@ add_fillers
 #-----------------------------------------------------------------------
 
 # DRC and LVS
-check_drc           -out_file RPT/check_drc.rpt
-check_connectivity  -out_file RPT/check_connectivity.rpt
+check_drc           -out_file reports/check_drc.rpt
+check_connectivity  -out_file reports/check_connectivity.rpt
 
 #-----------------------------------------------------------------------
 ## Signoff extraction
